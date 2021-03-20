@@ -24,6 +24,9 @@ const [name, SetName] = useState('');
         style={styles.input}
         placeholder='e.g John Smith'
         onChangeText={(value) => SetName(value)}
+        // maxLength={2}
+        // editable={false}
+        // secureTextEntry
       />
         <Text style={styles.text}>
         Your name: {name}
